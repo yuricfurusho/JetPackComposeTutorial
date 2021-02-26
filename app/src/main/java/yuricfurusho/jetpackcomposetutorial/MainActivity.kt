@@ -2,6 +2,7 @@ package yuricfurusho.jetpackcomposetutorial
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
     @Composable
     private fun NewStory() {
         Column(modifier = Modifier.padding(16.dp)) {
+            Image(
+                    painter = painterResource(R.drawable.header),
+                    contentDescription = null
+            )
             Text("A day in Shark Fin Cove")
             Text("Davenport, California")
             Text("December 2018")
