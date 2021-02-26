@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             NewStory()
-            Greeting(name = "Android")
         }
     }
 
@@ -25,16 +24,5 @@ class MainActivity : AppCompatActivity() {
     @Composable
     private fun PreviewNewStory() {
         TODO("Not yet implemented")
-    }
-
-    @Composable
-    fun Greeting(name: String) {
-        Text(text = "Hello $name!")
-    }
-
-    @Preview
-    @Composable
-    fun PreviewGreeting() {
-        Greeting("Android")
     }
 }
