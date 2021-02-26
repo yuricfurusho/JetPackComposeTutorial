@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     @Preview
     @Composable
-    private fun PreviewNewStory() {
+    private fun DefaultPreview() {
         NewStory()
     }
 }
