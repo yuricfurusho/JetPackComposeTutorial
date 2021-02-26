@@ -25,6 +25,6 @@ class MainActivity : AppCompatActivity() {
     @Preview
     @Composable
     private fun PreviewNewStory() {
-        TODO("Not yet implemented")
+        NewStory()
     }
 }
