@@ -12,17 +12,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Column {
-                NewStory()
-            }
+            NewStory()
         }
     }
 
     @Composable
     private fun NewStory() {
-        Text("A day in Shark Fin Cove")
-        Text("Davenport, California")
-        Text("December 2018")
+        Column {
+            Text("A day in Shark Fin Cove")
+            Text("Davenport, California")
+            Text("December 2018")
+        }
     }
 
     @Preview
