@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -35,6 +36,9 @@ class MainActivity : AppCompatActivity() {
                     .fillMaxWidth(),
                 contentScale = ContentScale.Crop
             )
+//            Spacer(Modifier.preferredHeight(16.dp)) preferredHeight doesn't exist
+            Spacer(modifier = Modifier.height(16.dp))
+
             Text("A day in Shark Fin Cove")
             Text("Davenport, California")
             Text("December 2018")
