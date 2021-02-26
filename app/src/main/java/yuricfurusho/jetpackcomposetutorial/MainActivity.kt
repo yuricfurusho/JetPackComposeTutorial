@@ -13,6 +13,8 @@ import yuricfurusho.jetpackcomposetutorial.ui.theme.JetPackComposeTutorialTheme
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        setContent {
+            Text(text = "Hello World!")
+        }
     }
 }
