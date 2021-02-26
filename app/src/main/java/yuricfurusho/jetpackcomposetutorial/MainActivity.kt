@@ -11,8 +11,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            NewStory()
             Greeting(name = "Android")
         }
+    }
+
+    @Composable
+    private fun NewStory() {
+        TODO("Not yet implemented")
+    }
+
+    @Preview
+    @Composable
+    private fun PreviewNewStory() {
+        TODO("Not yet implemented")
     }
 
     @Composable
