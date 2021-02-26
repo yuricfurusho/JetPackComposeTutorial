@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
 
     @Composable
     private fun NewStory() {
-        TODO("Not yet implemented")
+        Text("A day in Shark Fin Cove")
+        Text("Davenport, California")
+        Text("December 2018")
     }
 
     @Preview
